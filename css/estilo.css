@@ -1,3 +1,124 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:  rgb(11, 0, 29);
+    color: white;
 }
+
+/*!              --------------Contenedor total -------------------            */
+.contenedor {
+    /*width: 1080px;
+    height: 900px; */
+    background-color: rgb(25, 1, 71); 
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    
+    
+}
+
+
+/*?         -------------------- Barrita de navegacion -------------------*/
+nav {
+    width: 1480px;
+    height: 40px;
+    background-color: rgb(59, 0, 168); 
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: -20px;
+    border-radius: 10px;
+    
+    /*----------- textos del navbar---------------*/
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 200px;
+        bottom: -10px;
+        font-weight: bold; /* establece el texto como bold*/
+
+        /*movimiento a la izquierda*/
+        position: relative;
+        left: -25px;
+
+        transition: background-color 0.3s;   
+        
+    }  
+    
+    /* -------------- estilo de las ventanitas del navbar ----------------*/
+    a:hover {
+        background-color: rgb(153, 5, 240);
+        border-radius: 10px;
+    }
+
+    
+    /* --------------- estilo de la lista --------------*/
+    ul {
+        display: flex;
+        list-style: none; /* le quita la rayita de abajo*/
+    
+        li {
+            float: left;
+            display: block;
+        }
+        
+
+    }
+
+
+}
+
+/**        ----------------------Titulo principal del sitio web-----------------         */
+header {
+    background-color: rgb(11, 0, 29);
+    margin-top: 70px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 40px;
+
+
+    h1, p {
+        margin-right: 600px;
+        margin-left: 100px;
+        position: relative;
+        bottom: -70px;
+        
+    }
+
+    .imagen-portada {
+        position: relative;
+        right: -1100px;
+        top: -100px;
+        
+    }
+}
+
+
+/*~  --------------EJEMPLOS 1 Y 2 PARA DENTRO DE EJEMPLO ------------ */
+.ejemplo {
+
+    background-color: rgb(11, 0, 29);
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 40px;
+    height: 350px;
+
+    #ejemplo-1 {
+
+        .imagen-ejemplo1 {
+
+        }
+    }
+
+    #ejemplo-2 {
+
+        .imagen-ejemplo2 {
+            
+        }
+    }
+}
+
+
+
