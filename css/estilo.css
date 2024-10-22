@@ -84,6 +84,7 @@ header {
         position: relative;
         bottom: -70px;
         
+        
     }
 
     .imagen-portada {
@@ -104,21 +105,44 @@ header {
     margin-top: 50px;
     border-radius: 40px;
     height: 350px;
-
-    #ejemplo-1 {
-
-        .imagen-ejemplo1 {
-
-        }
-    }
-
-    #ejemplo-2 {
-
-        .imagen-ejemplo2 {
-            
-        }
-    }
+   
+    
 }
 
+#ejemplo-uno{
+    position: relative;
+    top: -10px;
+}
 
+#ejemplo-dos {
+    position: relative;
+    top: -25px;
+}
 
+#ejemplo-uno p, #ejemplo-uno h2 {
+    position: relative;
+    bottom: -140px;
+    margin-left: 600px;
+    margin-right: 60px;   
+    
+}
+
+.imagen-ejemplo1 {
+    position: relative;
+    right: -80px;
+    top: -20px;
+}
+
+#ejemplo-dos p , #ejemplo-dos h2 {
+    margin-right: 700px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -140px;
+
+}
+
+.imagen-ejemplo2 {
+    position: relative;
+    right: -920px;
+    top: -20px;
+}
